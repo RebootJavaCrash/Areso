@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html>
+      <title>Redirecting you...</title>
+      <meta http-equiv = "refresh" content = "3; url = ./SurfFreely.html" />
+      
+   </head>
+   <body>
+   </body>
+
+<div class="wrapper">
+  <span class="circle circle-1"></span>
+  <span class="circle circle-2"></span>
+  <span class="circle circle-3"></span>
+
+</div>
+<style>
+  body{
+  padding: 0;
+  margin: 0;
+  background-color: #222327;
+  text-align: center;
+  height:100vh;
+  font-family: 'lato';
+  font-weight: 100;;
+}
+.wrapper{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%); 
+}
+.circle{
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-color: #FFF;
+  border-radius: 50%;
+  animation: loading 1.5s cubic-bezier(.8, .5, .2, 1.4) infinite;
+  transform-origin: bottom center;
+  position: relative;
+}
+@keyframes loading{
+  0%{
+    transform: translateY(0px);
+    background-color: #FFF;
+  }
+  50%{
+    transform: translateY(50px);
+    background-color: #FFF;
+  }
+  100%{
+    transform: translateY(0px);
+    background-color: #FFF;
+  }
+}
+.circle-1{
+  animation-delay: 0.1s;
+}
+.circle-2{
+  animation-delay: 0.2s;
+}
+.circle-3{
+  animation-delay: 0.3s;
+}
+.circle-4{
+  animation-delay: 0.4s;
+}
+.circle-5{
+  animation-delay: 0.5s;
+}
+.circle-6{
+  animation-delay: 0.6s;
+}
+.circle-7{
+  animation-delay: 0.7s;
+}
+.circle-8{
+  animation-delay: 0.8s;
+}
+
+
+</style>
+<style>
+.container {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+}
+</style>
+<div class="container">
+<SCRIPT LANGUAGE="JAVASCRIPT">
+
+
+var r_text = new Array ();
+r_text[0] = "Working Aresos' Magic...";
+r_text[1] = "Hang Tight!";
+r_text[2] = "Meet the devs!";
+r_text[3] = "Redirecting....";
+r_text[4] = "&lt;h1&gt;loading...&lt;/h1&gt;";
+
+var i = Math.floor(r_text.length * Math.random());
+
+document.write("<br /><br /><br /><br /><br /><br /><br /><center><FONT SIZE=72><FONT COLOR='#FFF'>" +
+r_text[i]  + "</FONT></center><br />");
+
+</script><br> <br>
+    <br>
+    <br>
+    <style type="text/css">
+
+body,td,th {
+     color: powderblue;
+     font-family: Helvetica, sans-serif;
+}
+</style>
+</div>
+</html>
