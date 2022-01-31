@@ -10,11 +10,15 @@
         <link rel="stylesheet" href="untitled-2.css">
         
     </head>
-	<script type="text/javascript">
-  if (screen.width <= 699) {
-    document.location = "aresos.com/redirect.html";
-  }
-</script>
+	<script>
+if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+  // true for mobile device
+  document.location(ḧttps://www.aresos.com/redirect.html");
+}else{
+  // false for not mobile device
+  console.log("not mobile device");
+}
+	</script>
     <body>
         <div class="hero">
             <nav>
