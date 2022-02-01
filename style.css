@@ -7,7 +7,6 @@
 .hero{
     min-height: 100vh;
     width: 100%;
-    background-image: url("https://www.");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -79,18 +78,7 @@ nav ul li a{
     
 }
 
-.context {
-    width: 100%;
-    position: absolute;
-    top:50vh;
-    
-}
 
-.context h1{
-    text-align: center;
-    color: #fff;
-    font-size: 50px;
-}
 
 
 .area{
